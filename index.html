@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="assets/css/index.css" />
+
+    <title>Newsletter sign-up</title>
+  </head>
+  <body>
+    <!-- Sign-up form start -->
+    <div class="outsidebox">
+      <div class="insidebox">
+        <div class="content">
+          <h1>Stay updated!</h1>
+          <h4>Join 60,000+ product managers receiving monthly updates on:</h4>
+
+          <ul class="points">
+            <li>Product discovery and building what matters</li>
+            <li>Measuring to ensure updates are a success</li>
+            <li class="lastli">And much more!</li>
+          </ul>
+          <form id="email_id">
+            <p>Email address</p>
+            <span class="err_mssg"></span>
+            <input
+              type="email"
+              id="email"
+              placeholder="email@company.com"
+              autocomplete="off"
+              novalidate
+            />
+            <button class="sub_button">Subscribe to monthly newsletter</button>
+          </form>
+        </div>
+        <div class="designimg">
+          <img src="assets/images/illustration-sign-up-desktop.svg" />
+          <img
+            class="img2"
+            src="assets/images/illustration-sign-up-mobile.svg"
+          />
+        </div>
+      </div>
+      <div class="success_mssg">
+        <div class="icon"></div>
+        <div class="message">
+          <h1>Thanks for subscribing!</h1>
+          <p>
+            A confirmation email has been sent to
+            <span class="mail_id"></span>. Please open it and click the button
+            inside to confirm your subscription.
+          </p>
+          <button>Dismiss message</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Sign-up form end -->
+
+    <!-- Success message start -->
+
+    <!-- Thanks for subscribing! A confirmation email has been sent to
+    ash@loremcompany.com. Please open it and click the button inside to confirm
+    your subscription. Dismiss message -->
+
+    <!-- Success message end -->
+
+    <!-- <div class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by <a href="#">Ankush tripathi</a>.
+    </div> -->
+    <script src="assets/js/index.js"></script>
+  </body>
+</html>

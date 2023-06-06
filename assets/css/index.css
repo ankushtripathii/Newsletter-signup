@@ -1,0 +1,336 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,500,500i,700,700i,900,900i");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+html {
+  box-sizing: border-box;
+  overflow-y: hidden;
+}
+body {
+  overflow-y: hidden;
+  width: 1440px;
+  font-family: "Roboto";
+  font-weight: 400, 700;
+  height: 100vh;
+  color: white;
+  background-image: white;
+  overflow-x: hidden;
+}
+.outsidebox {
+  background-color: hsl(234, 29%, 20%);
+  padding: 2.5rem 0;
+  padding-bottom: 30px;
+  position: relative;
+  top: 2%;
+  margin-right: 10rem;
+}
+.insidebox {
+  opacity: 1;
+  display: flex;
+  flex-direction: row;
+  border: 1px solid white;
+  margin: 0 10rem;
+  padding: 0.7rem 0.5rem;
+  border-radius: 2%;
+  color: black;
+  background-color: white;
+}
+.content {
+  margin-left: 2rem;
+}
+.content h1 {
+  position: relative;
+  margin-top: 6rem;
+
+  margin-left: 20px;
+  font-size: 60px;
+}
+h4 {
+  display: inline-block;
+  font-weight: 400;
+  position: relative;
+  margin-top: 1rem;
+  margin-left: 20px;
+  font-size: 16px;
+  width: 400px;
+}
+/* p {
+  font-size: 16px;
+  max-width: 700px;
+} */
+ul {
+  list-style: none;
+  padding-left: 0;
+  position: relative;
+  margin-top: 2rem;
+  font-size: 16px;
+}
+li {
+  text-indent: 10px;
+  list-style-type: none;
+  margin-bottom: 1rem;
+  margin-left: 23px;
+  padding-left: 1.5em;
+  margin-bottom: 0.5em;
+
+  background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='21' height='21' viewBox='0 0 21 21'%3E%3Cg fill='none'%3E%3Ccircle cx='10.5' cy='10.5' r='10.5' fill='%23FF6155'/%3E%3Cpath stroke='%23FFF' stroke-width='2' d='M6 11.381 8.735 14 15 8'/%3E%3C/g%3E%3C/svg%3E")
+    no-repeat left;
+  padding: 0px 0 3px 24px;
+}
+.designimg {
+  margin-left: 4rem;
+}
+.designimg .img2 {
+  display: none;
+}
+
+/* email */
+
+#email_id p {
+  font-size: 16px;
+  margin-left: 1.2rem;
+  margin-top: 3.2rem;
+  font-weight: 700;
+}
+#email {
+  margin-top: 12px;
+  margin-left: 1.2rem;
+  padding: 1.2rem;
+  width: 24vw;
+  border: 1px solid hsl(231, 7%, 60%);
+  border-radius: 15px;
+  outline: none;
+}
+.err_mssg {
+  display: none;
+  float: right;
+  font-size: 13px;
+  color: red;
+}
+/* buton */
+.sub_button {
+  margin-top: 2rem;
+  margin-left: 1.2rem;
+  padding: 1.2rem;
+  width: 24vw;
+  color: white;
+  font-weight: 700;
+  background-color: hsl(234, 29%, 20%);
+  border-radius: 15px;
+  cursor: pointer;
+  border: none;
+}
+.sub_button:hover {
+  background-color: hsl(4, 100%, 67%);
+}
+
+/* success message */
+
+.success_mssg {
+  visibility: hidden;
+  display: flex;
+  flex-direction: row;
+  border: 1px solid white;
+  padding: 4rem 0px;
+  border-radius: 25px;
+  color: black;
+  background-color: white;
+  position: absolute;
+  bottom: 100px;
+  right: 23rem;
+  width: 500px;
+  height: 500px;
+}
+.icon {
+  background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='21' height='21' viewBox='0 0 21 21'%3E%3Cg fill='none'%3E%3Ccircle cx='10.5' cy='10.5' r='10.5' fill='%23FF6155'/%3E%3Cpath stroke='%23FFF' stroke-width='2' d='M6 11.381 8.735 14 15 8'/%3E%3C/g%3E%3C/svg%3E")
+    no-repeat top;
+  padding: 0 0 3px 24px;
+  background-size: 3.2em;
+  width: 6.5rem;
+  height: 6.5rem;
+  position: relative;
+  bottom: 2rem;
+  left: 4rem;
+}
+.message {
+  /* margin-left: 35px; */
+  margin-right: 58px;
+  width: 380px;
+
+  padding-bottom: 110px;
+  margin-top: 30px;
+}
+.message h1 {
+  font-size: 60px;
+  margin-bottom: 6rem;
+  color: hsl(234, 29%, 20%);
+  font-weight: 700;
+}
+
+.message p {
+  position: relative;
+  bottom: 4.6rem;
+  color: hsl(235, 18%, 26%);
+  font-weight: 400;
+}
+.message span {
+  color: hsl(234, 29%, 20%);
+  font-weight: 700;
+}
+
+.message button {
+  padding: 1.2rem;
+  text-align: center;
+  width: 18vw;
+  color: white;
+  font-weight: 700;
+  background-color: hsl(234, 29%, 20%);
+  border-radius: 15px;
+  cursor: pointer;
+  border: none;
+  position: relative;
+  bottom: 20px;
+}
+.message button:hover {
+  background-color: hsl(4, 100%, 67%);
+}
+
+/* mobile  */
+@media screen and (max-width: 1715px) {
+  .outsidebox {
+    left: 8%;
+  }
+}
+@media screen and (max-width: 395px) {
+  html {
+    overflow-x: hidden;
+  }
+  body {
+    width: 375px;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+  }
+
+  .outsidebox {
+    padding: 0;
+    background-color: white;
+    position: relative;
+    top: 0%;
+    left: 0%;
+    overflow-y: scroll;
+    scroll-behavior: smooth;
+
+    height: 100%;
+    padding-right: 25rem;
+  }
+
+  .insidebox {
+    flex-direction: column;
+    margin: 0px 0px;
+    padding: 0px;
+    position: relative;
+
+    left: 0%;
+  }
+
+  .designimg img {
+    display: none;
+  }
+
+  .designimg .img2 {
+    position: relative;
+    right: 4.1rem;
+
+    bottom: 30.2rem;
+    width: 377.5px;
+    display: block;
+  }
+  .content {
+    width: 290px;
+
+    margin-left: 0;
+    position: relative;
+    top: 15rem;
+  }
+  .content h1 {
+    position: unset;
+    font-size: 35px;
+  }
+  h4 {
+    display: block;
+    width: 290px;
+    font-size: 15px;
+    margin-left: 20px;
+  }
+  li {
+    font-size: 14px;
+    width: 320px;
+  }
+  #email_id {
+    width: 375px;
+    position: relative;
+    top: 20px;
+  }
+  #email_id p {
+    font-size: 14px;
+    margin-left: 1.5rem;
+    margin-top: 0;
+    font-weight: 700;
+  }
+  #email {
+    width: 90vw;
+  }
+  .sub_button {
+    margin-top: 2rem;
+    margin-left: 1.2rem;
+    padding: 1.2rem;
+    width: 90vw;
+    color: white;
+    font-weight: 700;
+    background-color: hsl(234, 29%, 20%);
+    border-radius: 15px;
+    cursor: pointer;
+    border: none;
+  }
+  /* succes message */
+
+  .success_mssg {
+    overflow: hidden;
+    visibility: hidden;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 493px;
+    height: 100%;
+  }
+  .icon {
+    bottom: 0;
+    top: 4.5rem;
+    left: 6rem;
+    background-size: 4rem;
+  }
+  .message {
+    margin-top: 12rem;
+    width: 370px;
+    height: 500px;
+  }
+  .message h1 {
+    font-size: 35px;
+    position: relative;
+    left: 1rem;
+  }
+  .message button {
+    width: 90vw;
+    bottom: 0;
+    top: 5rem;
+    left: 1rem;
+  }
+  .message p {
+    position: relative;
+    left: 1rem;
+  }
+}
