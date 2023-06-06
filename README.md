@@ -34,7 +34,7 @@ Users should be able to:
 
 ### Links
 
-- Live Site URL: [Add live site URL here](https://newsletter-subscription-signup.netlify.app/)
+- Live Site URL: [Add live site URL here](https://news-letter-signup.netlify.app/)
 
 ## My process
 
@@ -47,6 +47,6 @@ Users should be able to:
 
 ## Author
 
-- Website - [Ankush tripathi](https://newsletter-subscription-signup.netlify.app/)
+- Website - [Ankush tripathi](https://news-letter-signup.netlify.app/)
 - Frontend Mentor - [@ankushtripathii](https://www.frontendmentor.io/profile/ankushtripathii)
 - Twitter - [@yourusername](https://www.twitter.com/ankushtripathii)
