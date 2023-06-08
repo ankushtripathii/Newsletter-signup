@@ -48,4 +48,4 @@ Users should be able to:
 
 - Website - [Ankush tripathi](https://news-letter-signup.netlify.app/)
 - Frontend Mentor - [@ankushtripathii](https://www.frontendmentor.io/profile/ankushtripathii)
-- Twitter - [@yourusername](https://www.twitter.com/ankushtripathii)
+- Twitter - [@ankushtripathii](https://www.twitter.com/ankushtripathii)
